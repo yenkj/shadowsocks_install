@@ -65,7 +65,9 @@ Copyright (C) 2014-2017 Teddysun
 ===============
 1. 下载安装脚本
 - wget https://raw.githubusercontent.com/yenkj/shadowsocks_install/master/shadowsocks.sh
+
 2. 修改执行权限
 - chmod 777 shadowsocks.sh
+
 3.运行脚本及配置信息
 - ./shadowsocks.sh
