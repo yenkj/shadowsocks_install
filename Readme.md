@@ -52,6 +52,7 @@ Copyright (C) 2014-2017 Teddysun
 卸载方法：
 ===============
 - ./shadowsocks-libev.sh uninstall
+- 配置文件路径：/etc/shadowsocks.json
 
 使用命令：
 ===============
