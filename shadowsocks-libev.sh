@@ -16,7 +16,7 @@ libsodium_file="libsodium-1.0.13"
 libsodium_url="https://github.com/jedisct1/libsodium/releases/download/1.0.13/libsodium-1.0.13.tar.gz"
 
 mbedtls_file="mbedtls-2.5.1"
-mbedtls_url="http://dl.teddysun.com/files/mbedtls-2.5.1-gpl.tgz"
+mbedtls_url="https://tls.mbed.org/download/mbedtls-2.5.1-gpl.tgz"
 
 # Stream Ciphers
 ciphers=(
@@ -85,7 +85,7 @@ get_latest_version(){
     [ -z ${ver} ] && echo "Error: Get shadowsocks-libev latest version failed" && exit 1
     shadowsocks_libev_ver="shadowsocks-libev-$(echo ${ver} | sed -e 's/^[a-zA-Z]//g')"
     download_link="https://github.com/shadowsocks/shadowsocks-libev/releases/download/${ver}/${shadowsocks_libev_ver}.tar.gz"
-    init_script_link="https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-libev"
+    init_script_link="https://raw.githubusercontent.com/yenkj/shadowsocks_install/master/shadowsocks-libev"
 }
 
 check_installed(){
@@ -232,7 +232,7 @@ pre_install(){
     # Set shadowsocks-libev config password
     echo "Please input password for shadowsocks-libev:"
     read -p "(Default password: teddysun.com):" shadowsockspwd
-    [ -z "${shadowsockspwd}" ] && shadowsockspwd="teddysun.com"
+    [ -z "${shadowsockspwd}" ] && shadowsockspwd="ykj123456"
     echo
     echo "---------------------------"
     echo "password = ${shadowsockspwd}"
