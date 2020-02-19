@@ -49,5 +49,13 @@ Copyright (C) 2014-2017 Teddysun
 - chmod +x shadowsocks-libev.sh
 - ./shadowsocks-libev.sh 2>&1 | tee shadowsocks-libev.log
 
+卸载方法：
+===============
+- ./shadowsocks-libev.sh uninstall
 
-
+使用命令：
+===============
+- 启动：/etc/init.d/shadowsocks start
+- 停止：/etc/init.d/shadowsocks stop
+- 重启：/etc/init.d/shadowsocks restart
+- 查看状态：/etc/init.d/shadowsocks status
