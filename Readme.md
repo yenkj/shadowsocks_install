@@ -44,6 +44,7 @@ haproxy.sh
 Copyright (C) 2014-2017 Teddysun
 
 使用方法：
+===============
 wget --no-check-certificate -O shadowsocks-libev.sh https://raw.githubusercontent.com/yenkj/shadowsocks_install/master/shadowsocks-libev.sh
 chmod +x shadowsocks-libev.sh
 ./shadowsocks-libev.sh 2>&1 | tee shadowsocks-libev.log
