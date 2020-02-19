@@ -68,4 +68,4 @@ Copyright (C) 2014-2017 Teddysun
 2. 修改执行权限
 - chmod 777 shadowsocks.sh
 3.运行脚本及配置信息
- - ./shadowsocks.sh
+- ./shadowsocks.sh
