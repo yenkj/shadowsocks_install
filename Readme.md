@@ -43,7 +43,10 @@ shadowsocks-libev-debian.sh
  
  配置文件路径：/etc/shadowsocks.json
 
-apt-get install libc-ares2 libc-ares-dev
+ apt-get install libc-ares2 libc-ares-dev
+ 
+ /etc/shadowsocks-libev/config.json
+
 
 shadowsocks-go.sh
 ===============
