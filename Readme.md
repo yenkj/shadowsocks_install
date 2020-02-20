@@ -19,9 +19,11 @@ shadowsocks-libev.sh
 - Description: Auto Install Shadowsocks(libev) Server for CentOS
 - Intro: https://teddysun.com/357.html
 
- 使用方法：
+ 使用方法
  wget --no-check-certificate -O shadowsocks-libev.sh https://raw.githubusercontent.com/yenkj/shadowsocks_install/master/shadowsocks-libev.sh 
+
  chmod +x shadowsocks-libev.sh
+ 
  ./shadowsocks-libev.sh 2>&1 | tee shadowsocks-libev.log
 
 shadowsocks-libev-debian.sh
@@ -36,8 +38,9 @@ shadowsocks-libev-debian.sh
  chmod 777 shadowsocks-libev-debian.sh
  3. 运行脚本及配置信息
  ./shadowsocks-libev-debian.sh
- 卸载方法：
- ./shadowsocks-libev-debian.sh uninstall
+ 
+ 卸载方法：./shadowsocks-libev-debian.sh uninstall
+ 
  配置文件路径：/etc/shadowsocks.json
 
 shadowsocks-go.sh
