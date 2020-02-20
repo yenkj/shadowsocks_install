@@ -43,6 +43,8 @@ shadowsocks-libev-debian.sh
  
  配置文件路径：/etc/shadowsocks.json
 
+apt-get install libc-ares2 libc-ares-dev
+
 shadowsocks-go.sh
 ===============
 - Description: Auto Install Shadowsocks(Go) Server for CentOS/Debian/Ubuntu
