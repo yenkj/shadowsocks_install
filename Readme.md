@@ -6,15 +6,47 @@ shadowsocks.sh
 - Description: Auto Install Shadowsocks(Python) Server for CentOS/Debian/Ubuntu
 - Intro: https://teddysun.com/342.html
 
+使用
+
+1. 下载安装脚本
+- wget https://raw.githubusercontent.com/yenkj/shadowsocks_install/master/shadowsocks.sh
+
+2. 修改执行权限
+- chmod 777 shadowsocks.sh
+
+3. 运行脚本及配置信息
+- ./shadowsocks.sh
+
 shadowsocks-libev.sh
 ===============
 - Description: Auto Install Shadowsocks(libev) Server for CentOS
 - Intro: https://teddysun.com/357.html
 
+使用方法：
+
+- wget --no-check-certificate -O shadowsocks-libev.sh https://raw.githubusercontent.com/yenkj/shadowsocks_install/master/shadowsocks-libev.sh
+- chmod +x shadowsocks-libev.sh
+- ./shadowsocks-libev.sh 2>&1 | tee shadowsocks-libev.log
+
 shadowsocks-libev-debian.sh
 ===============
 - Description: Auto Install Shadowsocks(libev) Server for Debian/Ubuntu
 - Intro: https://teddysun.com/358.html
+
+使用
+
+1. 下载安装脚本
+- wget https://raw.githubusercontent.com/yenkj/shadowsocks_install/master/shadowsocks-libev-debian.sh
+
+2. 修改执行权限
+- chmod 777 shadowsocks-libev-debian.sh
+
+3. 运行脚本及配置信息
+- ./shadowsocks-libev-debian.sh
+
+卸载方法：
+- ./shadowsocks-libev-debian.sh uninstall
+- 配置文件路径：/etc/shadowsocks.json
 
 shadowsocks-go.sh
 ===============
@@ -43,17 +75,6 @@ haproxy.sh
 
 Copyright (C) 2014-2017 Teddysun
 
-使用方法：
-===============
-- wget --no-check-certificate -O shadowsocks-libev.sh https://raw.githubusercontent.com/yenkj/shadowsocks_install/master/shadowsocks-libev.sh
-- chmod +x shadowsocks-libev.sh
-- ./shadowsocks-libev.sh 2>&1 | tee shadowsocks-libev.log
-
-卸载方法：
-===============
-- ./shadowsocks-libev.sh uninstall
-- 配置文件路径：/etc/shadowsocks.json
-
 使用命令：
 ===============
 - 启动：/etc/init.d/shadowsocks start
@@ -61,13 +82,4 @@ Copyright (C) 2014-2017 Teddysun
 - 重启：/etc/init.d/shadowsocks restart
 - 查看状态：/etc/init.d/shadowsocks status
 
-使用
-===============
-1. 下载安装脚本
-- wget https://raw.githubusercontent.com/yenkj/shadowsocks_install/master/shadowsocks.sh
 
-2. 修改执行权限
-- chmod 777 shadowsocks.sh
-
-3. 运行脚本及配置信息
-- ./shadowsocks.sh
