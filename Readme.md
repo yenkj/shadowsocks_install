@@ -9,13 +9,13 @@ shadowsocks.sh
 使用
 
 1. 下载安装脚本
-- wget https://raw.githubusercontent.com/yenkj/shadowsocks_install/master/shadowsocks.sh
+ wget https://raw.githubusercontent.com/yenkj/shadowsocks_install/master/shadowsocks.sh
 
 2. 修改执行权限
-- chmod 777 shadowsocks.sh
+ chmod 777 shadowsocks.sh
 
 3. 运行脚本及配置信息
-- ./shadowsocks.sh
+ ./shadowsocks.sh
 
 shadowsocks-libev.sh
 ===============
@@ -24,9 +24,9 @@ shadowsocks-libev.sh
 
 使用方法：
 
-- wget --no-check-certificate -O shadowsocks-libev.sh https://raw.githubusercontent.com/yenkj/shadowsocks_install/master/shadowsocks-libev.sh
-- chmod +x shadowsocks-libev.sh
-- ./shadowsocks-libev.sh 2>&1 | tee shadowsocks-libev.log
+ wget --no-check-certificate -O shadowsocks-libev.sh https://raw.githubusercontent.com/yenkj/shadowsocks_install/master/shadowsocks-libev.sh
+ chmod +x shadowsocks-libev.sh
+ ./shadowsocks-libev.sh 2>&1 | tee shadowsocks-libev.log
 
 shadowsocks-libev-debian.sh
 ===============
@@ -36,17 +36,14 @@ shadowsocks-libev-debian.sh
 使用
 
 1. 下载安装脚本
-- wget https://raw.githubusercontent.com/yenkj/shadowsocks_install/master/shadowsocks-libev-debian.sh
-
+ wget https://raw.githubusercontent.com/yenkj/shadowsocks_install/master/shadowsocks-libev-debian.sh
 2. 修改执行权限
-- chmod 777 shadowsocks-libev-debian.sh
-
+ chmod 777 shadowsocks-libev-debian.sh
 3. 运行脚本及配置信息
-- ./shadowsocks-libev-debian.sh
-
+ ./shadowsocks-libev-debian.sh
 卸载方法：
-- ./shadowsocks-libev-debian.sh uninstall
-- 配置文件路径：/etc/shadowsocks.json
+ ./shadowsocks-libev-debian.sh uninstall
+配置文件路径：/etc/shadowsocks.json
 
 shadowsocks-go.sh
 ===============
