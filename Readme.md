@@ -63,6 +63,10 @@ shadowsocksR.sh
 - Description: Auto Install ShadowsocksR Server for CentOS/Debian/Ubuntu
 - Intro: https://shadowsocks.be/9.html
 
+wget --no-check-certificate https://raw.githubusercontent.com/yenkj/shadowsocks_install/master/shadowsocksR.sh && chmod +x shadowsocksR.sh
+
+./shadowsocksR.sh
+
 shadowsocks-all.sh
 ==================
 - Description: Auto Install Shadowsocks Server (all version) for CentOS/Debian/Ubuntu
